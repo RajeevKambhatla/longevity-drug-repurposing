@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/6/26: LLM proposed genes for six hallmarks; 23 of 29 new core candidates kept after PubMed and biological review. Effects on control-drug rankings were mixed: proteostasis improved (stress drugs moved toward the bottom), senescence worsened (known senescence drugs dropped 2–18 places), and nutrient sensing was unchanged (sirolimus stayed 3rd). Using the refined list for proteostasis only, and the original lists elsewhere, until more control drugs are available.
+
 10/6/26: Added gene lists for five more hallmarks and scored 100+ pilot drugs on all six; sirolimus ranked 3 of 106 on nutrient sensing; stress drugs ranked 106, 34, 84, 99, 23, 61 of 106 on proteostasis.
 
 10/6/26: App link: https://longevity-drug-repurposing-dihxymo5lgkbxemkqqxrrh.streamlit.app/
