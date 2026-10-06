@@ -1,4 +1,8 @@
 # longevity-drug-repurposing
+
+10/6/26: App link: https://longevity-drug-repurposing-dihxymo5lgkbxemkqqxrrh.streamlit.app/
+Deployed pilot Streamlit app showing senescence scores and AI reviews.
+
 Cell type: VCAP. It has 9 of the known aging drugs found in LINCS and 15542 drugs in total.
 
 9/29/26: Extracted 34753 VCAP drug signatures across 15542 drugs from LINCS Phase 1.
