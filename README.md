@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/6/26: Added gene lists for five more hallmarks and scored 100+ pilot drugs on all six; sirolimus ranked 3 of 106 on nutrient sensing; stress drugs ranked 106, 34, 84, 99, 23, 61 of 106 on proteostasis.
+
 10/6/26: App link: https://longevity-drug-repurposing-dihxymo5lgkbxemkqqxrrh.streamlit.app/
 Deployed pilot Streamlit app showing senescence scores and AI reviews.
 
