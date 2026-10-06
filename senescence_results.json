@@ -1,0 +1,856 @@
+{
+  "hallmark": "senescence",
+  "cell_type": "VCAP",
+  "scores": [
+    {
+      "rank": 1,
+      "name": "st-014366",
+      "score": 1.7616351210384735,
+      "nes": -1.7616351210384735,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 2,
+      "name": "naftidrofuryl",
+      "score": 1.694839772431749,
+      "nes": -1.694839772431749,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 3,
+      "name": "practolol",
+      "score": 1.634028088053562,
+      "nes": -1.634028088053562,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 4,
+      "name": "valdecoxib",
+      "score": 1.5878523815734584,
+      "nes": -1.5878523815734584,
+      "pert_dose": 177.6,
+      "pert_time": 24
+    },
+    {
+      "rank": 5,
+      "name": "emd-386088",
+      "score": 1.573990877688188,
+      "nes": -1.573990877688188,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 6,
+      "name": "troglitazone",
+      "score": 1.5662586771141669,
+      "nes": -1.5662586771141669,
+      "pert_dose": 20.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 7,
+      "name": "chenodeoxycholic-acid",
+      "score": 1.4669208141759782,
+      "nes": -1.4669208141759782,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 8,
+      "name": "t-0901317",
+      "score": 1.4567360990026896,
+      "nes": -1.4567360990026896,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 9,
+      "name": "ilomastat",
+      "score": 1.4518083558498909,
+      "nes": -1.4518083558498909,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 10,
+      "name": "vu-0366968",
+      "score": 1.4383239477184508,
+      "nes": -1.4383239477184508,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 11,
+      "name": "isoxicam",
+      "score": 1.3839737785899302,
+      "nes": -1.3839737785899302,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 12,
+      "name": "beta-ccp",
+      "score": 1.357055894782353,
+      "nes": -1.357055894782353,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 13,
+      "name": "jas07-001",
+      "score": 1.319103285147714,
+      "nes": -1.319103285147714,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 14,
+      "name": "naftopidil",
+      "score": 1.3095654235532583,
+      "nes": -1.3095654235532583,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 15,
+      "name": "gestrinone",
+      "score": 1.288760522621717,
+      "nes": -1.288760522621717,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 16,
+      "name": "pnu-120596",
+      "score": 1.2758545636517955,
+      "nes": -1.2758545636517955,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 17,
+      "name": "gbr-13069",
+      "score": 1.273846110103558,
+      "nes": -1.273846110103558,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 18,
+      "name": "flavoxate",
+      "score": 1.2471668095546815,
+      "nes": -1.2471668095546815,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 19,
+      "name": "prl-3-inhibitor-i",
+      "score": 1.233261775310159,
+      "nes": -1.233261775310159,
+      "pert_dose": 40.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 20,
+      "name": "methapyrilene",
+      "score": 1.2292012059904545,
+      "nes": -1.2292012059904545,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 21,
+      "name": "procyclidine",
+      "score": 1.2263421968154706,
+      "nes": -1.2263421968154706,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 22,
+      "name": "skimmianine",
+      "score": 1.2210796494769067,
+      "nes": -1.2210796494769067,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 23,
+      "name": "ku-c104131",
+      "score": 1.2054962178777244,
+      "nes": -1.2054962178777244,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 24,
+      "name": "vu-0413807-2",
+      "score": 1.1660746148538077,
+      "nes": -1.1660746148538077,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 25,
+      "name": "sa-1472542",
+      "score": 1.146368613028502,
+      "nes": -1.146368613028502,
+      "pert_dose": 4.99,
+      "pert_time": 24
+    },
+    {
+      "rank": 26,
+      "name": "tbep",
+      "score": 1.1438912343761285,
+      "nes": -1.1438912343761285,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 27,
+      "name": "farnesylthioacetic-acid",
+      "score": 1.1375044305995596,
+      "nes": -1.1375044305995596,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 28,
+      "name": "metixene",
+      "score": 1.1257005097585078,
+      "nes": -1.1257005097585078,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 29,
+      "name": "diprotin-a",
+      "score": 1.1208760252709278,
+      "nes": -1.1208760252709278,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 30,
+      "name": "sd-6-035-a1",
+      "score": 1.120847912788377,
+      "nes": -1.120847912788377,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 31,
+      "name": "navitoclax",
+      "score": 1.091056232026124,
+      "nes": -1.091056232026124,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 32,
+      "name": "bix-02189",
+      "score": 1.090405182776936,
+      "nes": -1.090405182776936,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 33,
+      "name": "ici-199441",
+      "score": 1.088554585490559,
+      "nes": -1.088554585490559,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 34,
+      "name": "ran-14a",
+      "score": 1.0848236354311227,
+      "nes": -1.0848236354311227,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 35,
+      "name": "l-655708",
+      "score": 1.0761926340012422,
+      "nes": -1.0761926340012422,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 36,
+      "name": "zd-7288",
+      "score": 1.027732783459396,
+      "nes": -1.027732783459396,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 37,
+      "name": "e-4031",
+      "score": 1.017185174444256,
+      "nes": -1.017185174444256,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 38,
+      "name": "u-74389f",
+      "score": 1.0100344279160152,
+      "nes": -1.0100344279160152,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 39,
+      "name": "roscovitine",
+      "score": 1.0057699504630686,
+      "nes": -1.0057699504630686,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 40,
+      "name": "selumetinib",
+      "score": 1.0013545766274383,
+      "nes": -1.0013545766274383,
+      "pert_dose": 80.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 41,
+      "name": "metformin",
+      "score": 0.996234231910604,
+      "nes": -0.996234231910604,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 42,
+      "name": "mw-ras9",
+      "score": 0.909197384025059,
+      "nes": -0.909197384025059,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 43,
+      "name": "resveratrol",
+      "score": 0.9076556068561276,
+      "nes": -0.9076556068561276,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 44,
+      "name": "azacitidine",
+      "score": 0.9039396546807756,
+      "nes": -0.9039396546807756,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 45,
+      "name": "lfm-a12",
+      "score": 0.9035018550183268,
+      "nes": -0.9035018550183268,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 46,
+      "name": "genipin",
+      "score": 0.8878635728034986,
+      "nes": -0.8878635728034986,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 47,
+      "name": "marbofloxacin",
+      "score": 0.8713256476139084,
+      "nes": -0.8713256476139084,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 48,
+      "name": "cgp-52411",
+      "score": 0.8644322447397933,
+      "nes": -0.8644322447397933,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 49,
+      "name": "bisindolylmaleimide",
+      "score": 0.8118002349692023,
+      "nes": -0.8118002349692023,
+      "pert_dose": 12.12,
+      "pert_time": 24
+    },
+    {
+      "rank": 50,
+      "name": "quercetin",
+      "score": 0.7792283486489595,
+      "nes": -0.7792283486489595,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 51,
+      "name": "biib-021",
+      "score": -0.5632650351971713,
+      "nes": 0.5632650351971713,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 52,
+      "name": "sirolimus",
+      "score": -0.6016468716098847,
+      "nes": 0.6016468716098847,
+      "pert_dose": 20.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 53,
+      "name": "olopatadine",
+      "score": -0.6942060595469728,
+      "nes": 0.6942060595469728,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 54,
+      "name": "nicotinamide",
+      "score": -0.7360202767623968,
+      "nes": 0.7360202767623968,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 55,
+      "name": "prostaglandin",
+      "score": -0.7406558373718599,
+      "nes": 0.7406558373718599,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 56,
+      "name": "edrophonium",
+      "score": -0.7613513898226439,
+      "nes": 0.7613513898226439,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 57,
+      "name": "sa-90544",
+      "score": -0.8020574250350376,
+      "nes": 0.8020574250350376,
+      "pert_dose": 5.12,
+      "pert_time": 24
+    },
+    {
+      "rank": 58,
+      "name": "tul-xx025tfa",
+      "score": -0.8176698397598322,
+      "nes": 0.8176698397598322,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 59,
+      "name": "gw-6471",
+      "score": -0.8177418200974162,
+      "nes": 0.8177418200974162,
+      "pert_dose": 30.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 60,
+      "name": "nu-7441",
+      "score": -0.8482024909394461,
+      "nes": 0.8482024909394461,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 61,
+      "name": "nicorandil",
+      "score": -0.8729121955386463,
+      "nes": 0.8729121955386463,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 62,
+      "name": "pd-0325901",
+      "score": -0.8979540902262809,
+      "nes": 0.8979540902262809,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 63,
+      "name": "prima-1-met",
+      "score": -0.9060835281372156,
+      "nes": 0.9060835281372156,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 64,
+      "name": "sb-269970",
+      "score": -0.914350809899842,
+      "nes": 0.914350809899842,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 65,
+      "name": "duloxetine",
+      "score": -0.9437276392802268,
+      "nes": 0.9437276392802268,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 66,
+      "name": "camptothecin",
+      "score": -0.947351187124476,
+      "nes": 0.947351187124476,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 67,
+      "name": "bucladesine",
+      "score": -0.9683861189994312,
+      "nes": 0.9683861189994312,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 68,
+      "name": "prednisolone-acetate",
+      "score": -0.975436145496837,
+      "nes": 0.975436145496837,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 69,
+      "name": "sa-1460192",
+      "score": -0.9770700613401158,
+      "nes": 0.9770700613401158,
+      "pert_dose": 5.03,
+      "pert_time": 24
+    },
+    {
+      "rank": 70,
+      "name": "dasatinib",
+      "score": -0.9793051717927383,
+      "nes": 0.9793051717927383,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 71,
+      "name": "profenamine",
+      "score": -0.9878274955875797,
+      "nes": 0.9878274955875797,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 72,
+      "name": "dmbi",
+      "score": -0.9900128426684351,
+      "nes": 0.9900128426684351,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 73,
+      "name": "flavanone",
+      "score": -0.9939274380382846,
+      "nes": 0.9939274380382846,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 74,
+      "name": "osi-027",
+      "score": -1.0141648307486368,
+      "nes": 1.0141648307486368,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 75,
+      "name": "sd-6-035-b3",
+      "score": -1.0296152715227491,
+      "nes": 1.0296152715227491,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 76,
+      "name": "st-022313",
+      "score": -1.0298564860100106,
+      "nes": 1.0298564860100106,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 77,
+      "name": "akt-inhibitor-iv",
+      "score": -1.0837799062511322,
+      "nes": 1.0837799062511322,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 78,
+      "name": "yl-57",
+      "score": -1.096701394338042,
+      "nes": 1.096701394338042,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 79,
+      "name": "zg-10",
+      "score": -1.1193007034496143,
+      "nes": 1.1193007034496143,
+      "pert_dose": 10.0,
+      "pert_time": 6
+    },
+    {
+      "rank": 80,
+      "name": "pregnenolone-succinate",
+      "score": -1.1491687631617795,
+      "nes": 1.1491687631617795,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 81,
+      "name": "psh-003",
+      "score": -1.1507329197167877,
+      "nes": 1.1507329197167877,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 82,
+      "name": "everolimus",
+      "score": -1.1584941270535811,
+      "nes": 1.1584941270535811,
+      "pert_dose": 10.0,
+      "pert_time": 6
+    },
+    {
+      "rank": 83,
+      "name": "acarbose",
+      "score": -1.1884462128109845,
+      "nes": 1.1884462128109845,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 84,
+      "name": "fludarabine",
+      "score": -1.202928448637245,
+      "nes": 1.202928448637245,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 85,
+      "name": "nvp-bez235",
+      "score": -1.205875413499916,
+      "nes": 1.205875413499916,
+      "pert_dose": 0.63,
+      "pert_time": 24
+    },
+    {
+      "rank": 86,
+      "name": "tyrphostin-1",
+      "score": -1.2083068858002464,
+      "nes": 1.2083068858002464,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 87,
+      "name": "cyclophosphamide",
+      "score": -1.2126865915400609,
+      "nes": 1.2126865915400609,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 88,
+      "name": "vu-0404997-2",
+      "score": -1.2227090233670213,
+      "nes": 1.2227090233670213,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 89,
+      "name": "hydrastinine",
+      "score": -1.228744398881781,
+      "nes": 1.228744398881781,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 90,
+      "name": "rlm-2-12",
+      "score": -1.247880683215677,
+      "nes": 1.247880683215677,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 91,
+      "name": "dapsone",
+      "score": -1.2489235181261775,
+      "nes": 1.2489235181261775,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 92,
+      "name": "sa-424577",
+      "score": -1.2815081218334865,
+      "nes": 1.2815081218334865,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 93,
+      "name": "6-benzylaminopurine",
+      "score": -1.3281330220641228,
+      "nes": 1.3281330220641228,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 94,
+      "name": "pi-103",
+      "score": -1.3509463970415796,
+      "nes": 1.3509463970415796,
+      "pert_dose": 11.1,
+      "pert_time": 24
+    },
+    {
+      "rank": 95,
+      "name": "cytochalasin-d",
+      "score": -1.4841710206486376,
+      "nes": 1.4841710206486376,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 96,
+      "name": "wz-3105",
+      "score": -1.494058353588314,
+      "nes": 1.494058353588314,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 97,
+      "name": "gant-58",
+      "score": -1.6574187001506762,
+      "nes": 1.6574187001506762,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 98,
+      "name": "5-iodotubercidin",
+      "score": -1.665251600565923,
+      "nes": 1.665251600565923,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 99,
+      "name": "cymarin",
+      "score": -1.6856242857929205,
+      "nes": 1.6856242857929205,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    },
+    {
+      "rank": 100,
+      "name": "ici-118551",
+      "score": -1.757752232081757,
+      "nes": 1.757752232081757,
+      "pert_dose": 10.0,
+      "pert_time": 24
+    }
+  ],
+  "reviews": {
+    "emd-386088": {
+      "drug": "emd-386088",
+      "believability": "Low",
+      "likely_mechanism": "Unknown; EMD-386088 is reported in pharmacological literature as a 5-HT6 receptor partial agonist, with no established or plausible mechanistic link to senescence pathways (e.g., p16/Rb, p53/p21, SASP regulation, or senescence-associated stress responses)",
+      "evidence_summary": "No supporting articles were found linking EMD-386088 to senescence modulation in VCaP cells or any other model. The only available data point is a computational/transcriptomic senescence score (1.57, rank 5 of 100) from what appears to be a single screening dataset, with no independent replication, mechanistic validation, or literature context.",
+      "concerns": "Absence of any literature means this ranking could reflect assay noise, off-target cytotoxicity, or nonspecific stress responses that superficially downregulate senescence-associated gene signatures without genuine anti-senescence activity. A high score in a single transcriptomic screen is weak evidence on its own, especially for a drug with no known connection to canonical senescence pathways. Toxicity-induced gene expression changes (e.g., general stress or apoptotic signaling) can be misinterpreted as senescence suppression. No data on cell viability, SASP factors, senescence-associated beta-galactosidase activity, or validation in orthogonal assays.",
+      "key_pmids": []
+    },
+    "naftidrofuryl": {
+      "drug": "naftidrofuryl",
+      "believability": "Low",
+      "likely_mechanism": "Vasodilator/5-HT2 antagonist with purported effects on cellular metabolism and membrane deformability (e.g., erythrocyte filterability), but no evidence linking it to canonical senescence pathways (p16/p21, SASP, cell cycle arrest)",
+      "evidence_summary": "The provided articles only examine naftidrofuryl's effects on muscle energy metabolism under hypoxia in aging rats and on red blood cell filterability in vitro. None of these studies assess senescence markers, senescent cell burden, SASP factors, or senescence-associated pathways in any cell type, let alone VCAP cells. The high computational senescence score is unsupported by any mechanistic or empirical senescence data in the literature provided.",
+      "concerns": "No direct evidence of senescence modulation; studies are old, use non-standard endpoints (muscle enzyme activity, RBC filterability) unrelated to senescence biology; effects described as inconsistent and modest ('naftidrofuryl modified the effects of hypoxia only sometimes'); no toxicity or stress data available to rule out nonspecific transcriptional effects driving the score; literature base is sparse and tangential, making the score essentially unvalidated by biological evidence.",
+      "key_pmids": [
+        "2214890",
+        "1647327",
+        "3245847"
+      ]
+    },
+    "practolol": {
+      "drug": "practolol",
+      "believability": "Low",
+      "likely_mechanism": "Unknown; practolol is a beta-1 adrenergic receptor antagonist with no established link to senescence pathways",
+      "evidence_summary": "No supporting literature was provided or found. The only evidence is a single transcriptomic senescence score (1.63, rank 3 of 100) in VCAP cells, which is insufficient to establish biological plausibility or mechanism.",
+      "concerns": "Absence of any published literature connecting practolol to senescence biology; practolol is historically known for causing serious toxicity (oculomucocutaneous syndrome, fibrosis) in humans, raising concern that apparent transcriptional effects could reflect off-target stress or toxic responses rather than genuine senescence modulation. A high computational score alone is weak evidence without mechanistic or experimental validation.",
+      "key_pmids": []
+    },
+    "st-014366": {
+      "drug": "st-014366",
+      "believability": "Low",
+      "likely_mechanism": "Unknown - no literature available to support a plausible mechanism for senescence modulation",
+      "evidence_summary": "The only evidence provided is a single computational senescence score (1.76, ranked 1 of 100) in VCaP cells, derived presumably from a gene expression signature analysis. No peer-reviewed articles, preclinical studies, or mechanistic data could be found to corroborate this ranking or to establish how this compound might affect senescence pathways.",
+      "concerns": "No literature exists to confirm the compound's identity, target, pharmacology, or safety profile. A top-ranked score from a single in vitro transcriptomic screen is weak evidence on its own, as such rankings can reflect off-target toxicity, general cell stress responses, or assay artifacts rather than genuine anti-senescence activity. Without independent validation (e.g., SA-beta-gal staining, SASP factor reduction, p16/p21 expression, confirmation in multiple cell types, or dose-response toxicity studies), it is impossible to rule out that the apparent 'senescence gene downregulation' reflects cytotoxic stress, cell death, or non-specific transcriptional shutdown rather than true senescence reversal or prevention.",
+      "key_pmids": []
+    },
+    "valdecoxib": {
+      "drug": "valdecoxib",
+      "believability": "Low",
+      "likely_mechanism": "COX-2 inhibition reducing chronic inflammatory/NF-kB signaling could plausibly suppress a subset of SASP-related genes, but no direct senescence data are provided",
+      "evidence_summary": "Only indirect support exists: a Drosophila lifespan study shows NSAIDs including valdecoxib extend lifespan and improve stress resistance, suggesting anti-aging potential via anti-inflammatory pathways, but this does not directly measure cellular senescence markers (e.g., p16, p21, SA-b-gal) in mammalian cells. The other two articles focus entirely on valdecoxib's gastrointestinal and cardiovascular toxicity, including its market withdrawal, and provide no senescence-relevant mechanistic data.",
+      "concerns": "Valdecoxib was withdrawn from the market due to serious cardiovascular adverse events, raising concern that any transcriptional 'anti-senescence' signature could reflect off-target toxicity or stress response rather than genuine senescence reversal. No direct cellular senescence assays (SA-b-gal, p16/p21, SASP cytokines) are cited. The Drosophila lifespan data, while suggestive, come from a non-mammalian model and could reflect general anti-inflammatory effects rather than senescence-specific action. High-quality mechanistic or in vitro senescence validation is lacking.",
+      "key_pmids": [
+        "26305987",
+        "16869344",
+        "16454539"
+      ]
+    }
+  }
+}
