@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/9/26: Scored all 15,542 VCAP compounds on six hallmarks in seconds with a fast averaging method (agreement with GSEA: 0.73–0.95 across hallmarks); known-drug gaps at full scale higher than Session 9; 128 named compounds rank in the top 5% on three or more hallmarks.
+
 10/9/26: Validated all six hallmarks against 37 known drugs. Gaps: senescence 11, nutrient sensing 20, mitochondria 29, autophagy 3, inflammation 26, proteostasis 32. Using refined gene lists for none (original lists kept for all six).
 
 10/9/26: Built known-drug lists for six hallmarks (37 drugs in total) from LLM suggestions verified against PubMed, plus 139 DrugAge lifespan-extending compounds found in VCAP.
