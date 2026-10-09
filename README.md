@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/9/26: Validated all six hallmarks against 37 known drugs. Gaps: senescence 11, nutrient sensing 20, mitochondria 29, autophagy 3, inflammation 26, proteostasis 32. Using refined gene lists for none (original lists kept for all six).
+
 10/9/26: Built known-drug lists for six hallmarks (37 drugs in total) from LLM suggestions verified against PubMed, plus 139 DrugAge lifespan-extending compounds found in VCAP.
 
 10/6/26: LLM proposed genes for six hallmarks; 23 of 29 new core candidates kept after PubMed and biological review. Effects on control-drug rankings were mixed: proteostasis improved (stress drugs moved toward the bottom), senescence worsened (known senescence drugs dropped 2–18 places), and nutrient sensing was unchanged (sirolimus stayed 3rd). Using the refined list for proteostasis only, and the original lists elsewhere, until more control drugs are available.
