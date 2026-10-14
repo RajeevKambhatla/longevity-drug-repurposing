@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/14/26: Compared logistic regression and random forest, with signature-only and signature+fingerprint+target features, using grouped cross-validation. Best setup: logistic with signatures features (average left-out percentile 59 vs baseline 60). ML beat the baseline by >10 points for: nutrient sensing. Final models trained as 25-model ensembles for uncertainty estimates.
+
 10/13/26: Trained regularized logistic regression per hallmark on signature PCA features (positives: known helpful drugs; negatives: harmful drugs plus 300 random compounds). Grouped cross-validation, average percentile of left-out drugs, ML vs baseline: autophagy 56 vs 50, inflammation 48 vs 59, mitochondria 47 vs 72, nutrient sensing 88 vs 71, proteostasis 76 vs 66, senescence 40 vs 40. Held out 8 known drugs for Week 6; added target features for 1509 compounds.
 
 10/12/26: Built ML features for 15,542 VCAP compounds: ECFP4 chemical fingerprints for 15,503 compounds with structures, and 100 PCA components of the gene-activity signatures (62% of variance); signature neighbors of sirolimus include pi-828, ku-0063794, ly-294002, aminopurvalanol-a, ro-28-1675; UMAP map saved.
