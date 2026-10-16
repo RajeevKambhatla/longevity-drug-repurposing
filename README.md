@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/16/26: Designed a RAG review prompt (version v1): each review retrieves up to 10 relevant abstracts from the library across mechanism, aging, and safety questions, and returns a schema-validated dossier with a High/Medium/Low confidence rating and a cellular-stress flag. Tested on 5 shortlisted drugs ({'Low': 5}) plus two calibration drugs: metformin rated Medium on nutrient sensing, tunicamycin rated Low (stress flag True) on protein upkeep.
+
 10/15/26: Built a research library for 73 shortlisted candidates (top 15 named, non-control compounds per hallmark): 1,728 PubMed abstracts (median 35 per drug; 13 drugs with none), embedded with a PubMedBERT-based model and indexed with FAISS for semantic search; retrieval tested on mechanism, aging, and safety questions.
 
 10/14/26: Compared logistic regression and random forest, with signature-only and signature+fingerprint+target features, using grouped cross-validation. Best setup: logistic with signatures features (average left-out percentile 59 vs baseline 60). ML beat the baseline by >10 points for: nutrient sensing. Final models trained as 25-model ensembles for uncertainty estimates.
