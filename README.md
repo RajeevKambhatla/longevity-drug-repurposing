@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/16/26: Ran the RAG review (prompt v1) on 90 drug-hallmark pairs across 73 shortlisted drugs: 4 High, 12 Medium, 74 Low confidence; 68 flagged for possible cellular stress; all citations verified against supplied abstracts. 3 pairs rated Medium or High without a stress flag.
+
 10/16/26: Designed a RAG review prompt (version v1): each review retrieves up to 10 relevant abstracts from the library across mechanism, aging, and safety questions, and returns a schema-validated dossier with a High/Medium/Low confidence rating and a cellular-stress flag. Tested on 5 shortlisted drugs ({'Low': 5}) plus two calibration drugs: metformin rated Medium on nutrient sensing, tunicamycin rated Low (stress flag True) on protein upkeep.
 
 10/15/26: Built a research library for 73 shortlisted candidates (top 15 named, non-control compounds per hallmark): 1,728 PubMed abstracts (median 35 per drug; 13 drugs with none), embedded with a PubMedBERT-based model and indexed with FAISS for semantic search; retrieval tested on mechanism, aging, and safety questions.
