@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/20/26: Benchmarked final scores on held-out lifespan data, using the mean of six hallmark scores as the pre-specified primary score. ITP (excluding training drugs): AUC 0.56 (p = 0.45; 3 lifespan-extending vs 6 failed compounds). DrugAge (124 lifespan-extending compounds vs other named compounds): AUC 0.50 (p = 0.556), compared with 0.56 for signature strength alone. Contested ITP compounds excluded and listed.
+
 10/17/26: Built a pooled logistic-regression meta-model combining gene-list and ML percentiles, trained on out-of-fold ML scores (weights: gene list 0.23, ML 0.09). Held-out test on 8 known helpful drugs never used in training or tuning: average percentile 54 (gene list), 58 (ML), 55 (meta-model). Ranked 90 shortlisted drug-hallmark pairs by AI evidence tier, then meta score: 1 High, 2 Medium, 68 stress-flagged.
 
 10/16/26: Ran the RAG review (prompt v1) on 90 drug-hallmark pairs across 73 shortlisted drugs: 4 High, 12 Medium, 74 Low confidence; 68 flagged for possible cellular stress; all citations verified against supplied abstracts. 3 pairs rated Medium or High without a stress flag.
