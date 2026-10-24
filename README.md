@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+10/24/26: False-alarm check: SHAP grouped by feature type (gene activity, chemistry, targets) for the top 20 candidates, plus similarity to a toxic-drug signature and signature strength; 76 of 90 candidate pairs red-flagged. Final AI selection over 13 unflagged candidates: best drug named for 6 of 6 hallmarks; top multi-hallmark candidates: kenpaullone, necrostatin-1, as-605240, ku-c103655, tgx-115.
+
 10/20/26: Benchmarked final scores on held-out lifespan data, using the mean of six hallmark scores as the pre-specified primary score. ITP (excluding training drugs): AUC 0.56 (p = 0.45; 3 lifespan-extending vs 6 failed compounds). DrugAge (124 lifespan-extending compounds vs other named compounds): AUC 0.50 (p = 0.556), compared with 0.56 for signature strength alone. Contested ITP compounds excluded and listed.
 
 10/17/26: Built a pooled logistic-regression meta-model combining gene-list and ML percentiles, trained on out-of-fold ML scores (weights: gene list 0.23, ML 0.09). Held-out test on 8 known helpful drugs never used in training or tuning: average percentile 54 (gene list), 58 (ML), 55 (meta-model). Ranked 90 shortlisted drug-hallmark pairs by AI evidence tier, then meta score: 1 High, 2 Medium, 68 stress-flagged.
