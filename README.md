@@ -1,5 +1,8 @@
 # longevity-drug-repurposing
 
+10/28/26: App link: https://longevity-drug-repurposing-dihxymo5lgkbxemkqqxrrh.streamlit.app/
+  Built a four-tab Streamlit dashboard: project overview with final picks, a searchable score table for all 15,542 compounds across six hallmarks, per-drug pages with AI evidence dossiers and false-alarm checks, and a validation page with held-out and lifespan-benchmark results.
+
 10/24/26: False-alarm check: SHAP grouped by feature type (gene activity, chemistry, targets) for the top 20 candidates, plus similarity to a toxic-drug signature and signature strength; 76 of 90 candidate pairs red-flagged. Final AI selection over 13 unflagged candidates: best drug named for 6 of 6 hallmarks; top multi-hallmark candidates: kenpaullone, necrostatin-1, as-605240, ku-c103655, tgx-115.
 
 10/20/26: Benchmarked final scores on held-out lifespan data, using the mean of six hallmark scores as the pre-specified primary score. ITP (excluding training drugs): AUC 0.56 (p = 0.45; 3 lifespan-extending vs 6 failed compounds). DrugAge (124 lifespan-extending compounds vs other named compounds): AUC 0.50 (p = 0.556), compared with 0.56 for signature strength alone. Contested ITP compounds excluded and listed.
