@@ -1,0 +1,38 @@
+{
+  "senescence": {
+    "genes": 125,
+    "version": "original",
+    "gap": 11.2,
+    "score_source": "baseline"
+  },
+  "nutrient_sensing": {
+    "genes": 200,
+    "version": "original",
+    "gap": 19.5,
+    "score_source": "ml"
+  },
+  "mitochondria": {
+    "genes": 200,
+    "version": "original",
+    "gap": 29.4,
+    "score_source": "baseline"
+  },
+  "autophagy": {
+    "genes": 335,
+    "version": "original",
+    "gap": 2.8,
+    "score_source": "baseline"
+  },
+  "inflammation": {
+    "genes": 200,
+    "version": "original",
+    "gap": 25.8,
+    "score_source": "baseline"
+  },
+  "proteostasis": {
+    "genes": 113,
+    "version": "original",
+    "gap": 32.5,
+    "score_source": "baseline"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "best_per_hallmark": [
+    {
+      "hallmark": "senescence",
+      "drug": "as-605240",
+      "why": "Medium-strength evidence for PI3K\u03b3-mediated suppression of inflammatory/immune signaling that could indirectly limit senescence-associated inflammation; better evidence tier than the Low-evidence alternatives (cay-10415, ku-c103655, u-54494a)."
+    },
+    {
+      "hallmark": "nutrient_sensing",
+      "drug": "tgx-115",
+      "why": "Only candidate flagged for this hallmark; notably stable ML score (\u00b10 uncertainty) and no cautions, though evidence tier is Low and mechanism is unreported."
+    },
+    {
+      "hallmark": "mitochondria",
+      "drug": "kenpaullone",
+      "why": "High-strength published evidence with a clear, multi-model mechanism (GSK-3\u03b1/\u03b2 and CDK2 inhibition preserving mitochondrial membrane integrity, reducing ROS/apoptosis), low ML uncertainty (\u00b112), and no cautions flagged."
+    },
+    {
+      "hallmark": "autophagy",
+      "drug": "emf-bca1-16",
+      "why": "Only candidate associated with this hallmark, but support is weak (Low evidence, unstable ML score, gene list/ML disagreement, no reported mechanism)."
+    },
+    {
+      "hallmark": "inflammation",
+      "drug": "necrostatin-1",
+      "why": "Medium evidence with a well-defined mechanism (RIP1 kinase inhibition blocking necroptosis and DAMP release), consistently protective across multiple disease models, despite some ML instability."
+    },
+    {
+      "hallmark": "proteostasis",
+      "drug": "tc-2559",
+      "why": "Only candidate flagged for this hallmark, but evidence is Low, mechanism is unrelated/unreported for proteostasis, and ML score is unstable with gene list disagreement."
+    }
+  ],
+  "top5": [
+    {
+      "rank": 1,
+      "drug": "kenpaullone",
+      "hallmarks": [
+        "mitochondria"
+      ],
+      "why": "Strongest overall candidate: High-tier evidence, clear GSK-3/CDK2-linked mechanism protecting mitochondrial integrity, low ML uncertainty, and no cautions flagged across multiple preclinical models.",
+      "main_caveat": "Evidence is mitochondria-specific; no demonstrated benefit on other hallmarks, and CDK2/GSK-3 inhibition could have off-target proliferative or developmental effects not addressed in aging-relevant long-term studies."
+    },
+    {
+      "rank": 2,
+      "drug": "necrostatin-1",
+      "hallmarks": [
+        "inflammation"
+      ],
+      "why": "Medium-tier evidence with a mechanistically well-characterized action (RIP1 inhibition blocking necroptosis-driven DAMP release), consistently anti-inflammatory across independent disease models.",
+      "main_caveat": "ML score instability and single-hallmark benefit; long-term safety of chronic RIP1 inhibition (effects on immune surveillance) is not addressed."
+    },
+    {
+      "rank": 3,
+      "drug": "as-605240",
+      "hallmarks": [
+        "senescence"
+      ],
+      "why": "Medium evidence for PI3K\u03b3 inhibition reducing pro-inflammatory, senescence-associated secretory signaling; described as less toxic than pan-PI3K inhibitors.",
+      "main_caveat": "ML score unstable and disagrees with gene-list signal; dedicated long-term toxicity studies are lacking."
+    },
+    {
+      "rank": 4,
+      "drug": "ku-c103655",
+      "hallmarks": [
+        "senescence",
+        "inflammation"
+      ],
+      "why": "Flagged across two hallmarks (senescence and inflammation), suggesting potential pleiotropic benefit relevant to aging biology.",
+      "main_caveat": "Evidence is Low with no reported mechanism or safety data, and ML scores are unstable with gene list disagreement\u2014benefit is speculative."
+    },
+    {
+      "rank": 5,
+      "drug": "tgx-115",
+      "hallmarks": [
+        "nutrient_sensing"
+      ],
+      "why": "Top-percentile nutrient-sensing score with exceptionally stable ML prediction (\u00b10) and no cautions, making it a clean signal worth follow-up despite thin evidence.",
+      "main_caveat": "Evidence tier is Low with no mechanism or safety data reported at all; essentially unvalidated beyond the screening score."
+    }
+  ],
+  "red_flag_rules": [
+    "literature reports toxicity or cell stress",
+    "toxic-likeness >= 95th percentile",
+    "signal strength >= 98th percentile"
+  ],
+  "caution_rules": [
+    "ML uncertainty >= 15 points",
+    "gene list and ML differ by >= 40 points",
+    "chemistry >= 50% of SHAP contribution"
+  ]
+}

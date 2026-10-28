@@ -1,0 +1,92 @@
+{
+  "itp_positive": [
+    "sirolimus",
+    "acarbose",
+    "alpha-estradiol",
+    "nordihydroguaiaretic-acid",
+    "aspirin",
+    "canagliflozin",
+    "glycine",
+    "captopril"
+  ],
+  "itp_negative": [
+    "resveratrol",
+    "simvastatin",
+    "curcumin",
+    "oxaloacetic-acid",
+    "methylene-blue",
+    "dichloroacetic-acid",
+    "forskolin",
+    "fisetin",
+    "pioglitazone",
+    "mifepristone",
+    "methotrexate"
+  ],
+  "itp_excluded": [
+    "metformin",
+    "enalapril",
+    "caffeic-acid-phenethyl-ester",
+    "green tea extract",
+    "17-DMAG",
+    "astaxanthin",
+    "meclizine",
+    "mitoglitazone",
+    "epicatechin",
+    "halofuginone",
+    "protandim"
+  ],
+  "primary_score": "overall (mean of six meta-model hallmark percentiles)",
+  "results": {
+    "itp_independent_overall": {
+      "auc": 0.556,
+      "p": 0.451,
+      "n_pos": 3,
+      "n_neg": 6
+    },
+    "itp_independent_best_hallmark": {
+      "auc": 0.167,
+      "p": 0.955,
+      "n_pos": 3,
+      "n_neg": 6
+    },
+    "itp_independent_signal_strength": {
+      "auc": 0.278,
+      "p": 0.868,
+      "n_pos": 3,
+      "n_neg": 6
+    },
+    "itp_all_overall": {
+      "auc": 0.556,
+      "p": 0.399,
+      "n_pos": 5,
+      "n_neg": 9
+    },
+    "itp_all_best_hallmark": {
+      "auc": 0.289,
+      "p": 0.902,
+      "n_pos": 5,
+      "n_neg": 9
+    },
+    "itp_all_signal_strength": {
+      "auc": 0.356,
+      "p": 0.817,
+      "n_pos": 5,
+      "n_neg": 9
+    },
+    "drugage_overall": {
+      "auc": 0.496,
+      "p": 0.556,
+      "n_pos": 124
+    },
+    "drugage_best_hallmark": {
+      "auc": 0.553,
+      "p": 0.0235,
+      "n_pos": 124
+    },
+    "drugage_signal_strength": {
+      "auc": 0.561,
+      "p": 0.0075,
+      "n_pos": 124
+    }
+  }
+}

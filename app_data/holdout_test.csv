@@ -1,0 +1,9 @@
+hallmark,drug,baseline,ml,ml_uncertainty,session13_combined,meta
+senescence,apigenin,57.8,62.5,21.0,57.8,62.9
+nutrient_sensing,ku-0063794,99.7,96.4,4.4,96.4,99.9
+nutrient_sensing,resveratrol,32.2,63.7,14.2,63.7,38.0
+mitochondria,rosiglitazone,92.2,28.3,13.2,92.2,82.4
+autophagy,pp242,97.3,88.6,9.8,97.3,99.6
+inflammation,parthenolide,7.2,86.6,13.8,7.2,22.4
+inflammation,curcumin,0.2,11.8,25.7,0.2,0.5
+inflammation,aspirin,48.3,24.8,20.5,48.3,37.8
