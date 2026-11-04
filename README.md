@@ -1,5 +1,7 @@
 # longevity-drug-repurposing
 
+11/4/26: Added an AI chat assistant to the dashboard: answers questions using only the project’s results (scores, dossiers, validation, final picks), protected by a password, per-visit and daily question limits, and an API spending cap.
+
 10/28/26: App link: https://longevity-drug-repurposing-dihxymo5lgkbxemkqqxrrh.streamlit.app/
   Built a four-tab Streamlit dashboard: project overview with final picks, a searchable score table for all 15,542 compounds across six hallmarks, per-drug pages with AI evidence dossiers and false-alarm checks, and a validation page with held-out and lifespan-benchmark results.
 
